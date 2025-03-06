@@ -1,0 +1,38 @@
+!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کیف پول من</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            direction: rtl;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        .wallet-address {
+            word-break: break-all;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>کیف پول من</h1>
+        <p>برای حمایت، می‌تونید به این آدرس ارسال کنید:</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=YOUR_WALLET_ADDRESS" alt="QR Code">
+        <div class="wallet-address">YOUR_WALLET_ADDRESS</div>
+    </div>
+</body>
+</html>
