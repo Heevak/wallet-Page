@@ -9,11 +9,16 @@
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px;
-            background-color: #FFF9C4; /* یه زرد ملایم */
+            background-color: #ADD8E6; /* آبی روشن */
+            color: #333; /* رنگ متن برای خوانایی بهتر */
         }
         .container {
             max-width: 400px;
             margin: auto;
+            background-color: white; /* پس‌زمینه سفید برای بخش اصلی */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه برای جذابیت */
         }
         img {
             width: 200px;
@@ -29,6 +34,13 @@
             padding: 10px;
             border-radius: 5px;
             margin-top: 10px;
+            font-size: 14px;
+        }
+        h1 {
+            color: #1E90FF; /* رنگ تیتر آبی تیره */
+        }
+        h2 {
+            color: #4682B4; /* رنگ زیرتیترها آبی ملایم */
         }
     </style>
 </head>
@@ -40,15 +52,15 @@
         <!-- Bitcoin Wallet -->
         <div class="wallet-section">
             <h2>Bitcoin (BTC)</h2>
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=bc1qjkaarj4nt62lchy6pl2ryac6zzensc8388ac8q" alt="QR Code Bitcoin">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=YOUR_BTC_ADDRESS" alt="QR Code Bitcoin">
             <div class="wallet-address">YOUR_BTC_ADDRESS</div>
         </div>
 
         <!-- Tether Wallet -->
         <div class="wallet-section">
             <h2>Tether (USDT)</h2>
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=0x0E7C4D348Ba100F36414EE4ebD8241AbAc8e1689" alt="QR Code Tether">
-            <div class="wallet-address">YOUR_USDT_ADDRESS</div>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=YOUR_USDT_ADDRESS" alt="QR Code Tether">
+            <div class="wallet-address">0x0E7C4D348Ba100F36414EE4ebD8241AbAc8e1689</div>
         </div>
     </div>
 </body>
